@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TVTrendView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <TVTrendViewDatasource> {
+    TVTrendView *trendView;
+    NSArray *allSeries;
+}
 
 
 @end

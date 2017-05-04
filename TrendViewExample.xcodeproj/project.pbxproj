@@ -10,7 +10,6 @@
 		5B9B9C001EBB950F00B3FF20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9B9BFF1EBB950F00B3FF20 /* main.m */; };
 		5B9B9C031EBB950F00B3FF20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9B9C021EBB950F00B3FF20 /* AppDelegate.m */; };
 		5B9B9C061EBB950F00B3FF20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9B9C051EBB950F00B3FF20 /* ViewController.m */; };
-		5B9B9C091EBB950F00B3FF20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9B9C071EBB950F00B3FF20 /* Main.storyboard */; };
 		5B9B9C0B1EBB950F00B3FF20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9B9C0A1EBB950F00B3FF20 /* Assets.xcassets */; };
 		5B9B9C0E1EBB950F00B3FF20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9B9C0C1EBB950F00B3FF20 /* LaunchScreen.storyboard */; };
 		5B9B9C191EBB950F00B3FF20 /* TrendViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9B9C181EBB950F00B3FF20 /* TrendViewExampleTests.m */; };
@@ -44,7 +43,6 @@
 		5B9B9C021EBB950F00B3FF20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5B9B9C041EBB950F00B3FF20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5B9B9C051EBB950F00B3FF20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5B9B9C081EBB950F00B3FF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B9B9C0A1EBB950F00B3FF20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B9B9C0D1EBB950F00B3FF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B9B9C0F1EBB950F00B3FF20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 				5B9B9C021EBB950F00B3FF20 /* AppDelegate.m */,
 				5B9B9C041EBB950F00B3FF20 /* ViewController.h */,
 				5B9B9C051EBB950F00B3FF20 /* ViewController.m */,
-				5B9B9C071EBB950F00B3FF20 /* Main.storyboard */,
 				5B9B9C0A1EBB950F00B3FF20 /* Assets.xcassets */,
 				5B9B9C0C1EBB950F00B3FF20 /* LaunchScreen.storyboard */,
 				5B9B9C0F1EBB950F00B3FF20 /* Info.plist */,
@@ -300,7 +297,6 @@
 			files = (
 				5B9B9C0E1EBB950F00B3FF20 /* LaunchScreen.storyboard in Resources */,
 				5B9B9C0B1EBB950F00B3FF20 /* Assets.xcassets in Resources */,
-				5B9B9C091EBB950F00B3FF20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,14 +497,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5B9B9C071EBB950F00B3FF20 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B9B9C081EBB950F00B3FF20 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5B9B9C0C1EBB950F00B3FF20 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -711,6 +699,7 @@
 				5B9B9C2A1EBB950F00B3FF20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B9B9C2B1EBB950F00B3FF20 /* Build configuration list for PBXNativeTarget "TrendViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +708,7 @@
 				5B9B9C2D1EBB950F00B3FF20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B9B9C2E1EBB950F00B3FF20 /* Build configuration list for PBXNativeTarget "TrendViewExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +717,7 @@
 				5B9B9C301EBB950F00B3FF20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

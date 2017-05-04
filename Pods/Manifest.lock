@@ -1,0 +1,12 @@
+PODS:
+  - TrendView (0.2.0)
+
+DEPENDENCIES:
+  - TrendView (~> 0.2)
+
+SPEC CHECKSUMS:
+  TrendView: 6e9a9e723f04fd3874f950697d42ec8c737802fe
+
+PODFILE CHECKSUM: 879fbac770f6a4aa2b8a8581822f4710958eaa1c
+
+COCOAPODS: 1.2.0.beta.3

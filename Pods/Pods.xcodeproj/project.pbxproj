@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A22EF1AC48998DC4C12C1D25C7E0561 /* TVPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 34CDC2D34806CA7A923B36D69F125B1E /* TVPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A309E490DC5FE5F0B2009A54E0E3D45 /* Pods-TrendViewExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B58E813D4474D3A7B9D10CFB5B2A46B /* Pods-TrendViewExampleUITests-dummy.m */; };
+		0F7BBFB3CAE151F0D64703727E7F8DAE /* Pods-TrendViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F37EB821102D0E6CD2FD77CACED37 /* Pods-TrendViewExample-dummy.m */; };
+		40A8E31A3F9D6A250E1804D5E989C115 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		414A0FBF2E5438C3A7371CDB1277EBD0 /* Pods-TrendViewExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73322B40BCBB6FCABFCA08D1AE1C419A /* Pods-TrendViewExampleTests-dummy.m */; };
+		5856900C38FAC1C18AF3E8A3131E4F9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		63CF7D1A866A6806EC7D5B6F8A588154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		723C4EFDD2240819E348CF45B3C922F6 /* TVPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AED2D53592350F41DB5CEBC6E96EA1C7 /* TVPoint.m */; };
+		799AAB12C3DAA1D5C5F33FF63128CE3B /* TVTrendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA0C0F538A35BA484792817F1CDC127 /* TVTrendView.m */; };
+		809F625FFDBDD66CFF3ECE6760874B3F /* TrendView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71061CC49375AC36DE4B0A98DD15DF58 /* TrendView-dummy.m */; };
+		8F1D21192214A90EE878E32D8C9672CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		9BE39317D011845CCB8C4E648BC9F7FE /* TVTrendView.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E1C6AAAE46C1033ABF0C4496F451F1 /* TVTrendView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3995A3C7090EF65D112F8097540CE35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E486E08F54378AF7A2D8D203B87CFD70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E80FAA3147CA78FF7CD5B26E93FD72E2;
+			remoteInfo = TrendView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03726C285CE1958B92A4984CDDE851D7 /* Pods-TrendViewExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrendViewExampleTests-resources.sh"; sourceTree = "<group>"; };
+		1E3A878848FFD6D77B7471276B73661F /* TrendView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrendView.xcconfig; sourceTree = "<group>"; };
+		34CDC2D34806CA7A923B36D69F125B1E /* TVPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TVPoint.h; path = TrendView/TVPoint.h; sourceTree = "<group>"; };
+		3E6458D894CA255464DF8CCED461DF7B /* Pods-TrendViewExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrendViewExample-resources.sh"; sourceTree = "<group>"; };
+		40823749945365CB14B27BA0B91481A3 /* Pods-TrendViewExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrendViewExampleUITests-resources.sh"; sourceTree = "<group>"; };
+		4CC7AF6AE808DD15B9004B69633D0377 /* Pods-TrendViewExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrendViewExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D8F37EB821102D0E6CD2FD77CACED37 /* Pods-TrendViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrendViewExample-dummy.m"; sourceTree = "<group>"; };
+		4F7A9AA3EB409D387759C5B459B26CEC /* libPods-TrendViewExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TrendViewExampleTests.a"; path = "libPods-TrendViewExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		548AF531A8ECC7CA0EAB22B49F711F6E /* Pods-TrendViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrendViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C7F4B7917F24DC13CF55F421AFDF7F9 /* TrendView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrendView-prefix.pch"; sourceTree = "<group>"; };
+		71061CC49375AC36DE4B0A98DD15DF58 /* TrendView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrendView-dummy.m"; sourceTree = "<group>"; };
+		73322B40BCBB6FCABFCA08D1AE1C419A /* Pods-TrendViewExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrendViewExampleTests-dummy.m"; sourceTree = "<group>"; };
+		7AA0C0F538A35BA484792817F1CDC127 /* TVTrendView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TVTrendView.m; path = TrendView/TVTrendView.m; sourceTree = "<group>"; };
+		7BA35BE3EE42B993DF3F976B8CE665C7 /* Pods-TrendViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrendViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F2E498C239F5A4AF41252074866958B /* Pods-TrendViewExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrendViewExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88FA1B191F123B35684238AED522DC30 /* libTrendView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTrendView.a; path = libTrendView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B58E813D4474D3A7B9D10CFB5B2A46B /* Pods-TrendViewExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrendViewExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		9054826C1DA6B18FD12E7A3D418BA03F /* libPods-TrendViewExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TrendViewExample.a"; path = "libPods-TrendViewExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		927EDF27CEB7314A936C1BC296C04FF1 /* Pods-TrendViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrendViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97D7012FDB9408261BC8D36A584771BB /* Pods-TrendViewExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrendViewExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		9ADE9CE5B3EC8FD8F195AAA08BD40765 /* libPods-TrendViewExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TrendViewExampleUITests.a"; path = "libPods-TrendViewExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED2D53592350F41DB5CEBC6E96EA1C7 /* TVPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TVPoint.m; path = TrendView/TVPoint.m; sourceTree = "<group>"; };
+		B9E1C6AAAE46C1033ABF0C4496F451F1 /* TVTrendView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TVTrendView.h; path = TrendView/TVTrendView.h; sourceTree = "<group>"; };
+		C2EA1CEB0F210AFCAC4DDBAD406D688C /* Pods-TrendViewExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrendViewExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C613F1B1BBA2AC9908BF0B7001C1AE55 /* Pods-TrendViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrendViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDFF34C324ADC940F7A17BE92F3ECDBF /* Pods-TrendViewExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrendViewExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE9FD817DB3A133FDD954C5348FC3CBE /* Pods-TrendViewExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrendViewExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEF44094B7FD8C35BC8AC47A17E3040E /* Pods-TrendViewExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrendViewExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC0615FDE952BF65CEE3B45F87977EEF /* Pods-TrendViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrendViewExample-frameworks.sh"; sourceTree = "<group>"; };
+		EC6763C08B757ECB41D15DC0942B684D /* Pods-TrendViewExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrendViewExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF913957B1EBC7DF6D844B3363A0482D /* Pods-TrendViewExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrendViewExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FC34502816E64E91C3559EBB140543C0 /* Pods-TrendViewExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrendViewExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93677B94A6831220006E5905CD14F033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1D21192214A90EE878E32D8C9672CC /* Foundation.framework in Frameworks */,
+				40A8E31A3F9D6A250E1804D5E989C115 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37A26AFB60030C27083D927C2BE340C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CF7D1A866A6806EC7D5B6F8A588154 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF4D3A2B131F3A2545626B0C48F6118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5856900C38FAC1C18AF3E8A3131E4F9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC10F49CCA5BB0EC07C2ACB215E9BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3995A3C7090EF65D112F8097540CE35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08AA1836E59EBFA70639985339F077E1 /* TrendView */ = {
+			isa = PBXGroup;
+			children = (
+				34CDC2D34806CA7A923B36D69F125B1E /* TVPoint.h */,
+				AED2D53592350F41DB5CEBC6E96EA1C7 /* TVPoint.m */,
+				B9E1C6AAAE46C1033ABF0C4496F451F1 /* TVTrendView.h */,
+				7AA0C0F538A35BA484792817F1CDC127 /* TVTrendView.m */,
+				CD22AB5D805F13285DD3EEC61A636240 /* Support Files */,
+			);
+			name = TrendView;
+			path = TrendView;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B4C58568CA51B421EDE5E0A14E273D4 /* Pods-TrendViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC34502816E64E91C3559EBB140543C0 /* Pods-TrendViewExampleTests-acknowledgements.markdown */,
+				C2EA1CEB0F210AFCAC4DDBAD406D688C /* Pods-TrendViewExampleTests-acknowledgements.plist */,
+				73322B40BCBB6FCABFCA08D1AE1C419A /* Pods-TrendViewExampleTests-dummy.m */,
+				97D7012FDB9408261BC8D36A584771BB /* Pods-TrendViewExampleTests-frameworks.sh */,
+				03726C285CE1958B92A4984CDDE851D7 /* Pods-TrendViewExampleTests-resources.sh */,
+				CEF44094B7FD8C35BC8AC47A17E3040E /* Pods-TrendViewExampleTests.debug.xcconfig */,
+				CE9FD817DB3A133FDD954C5348FC3CBE /* Pods-TrendViewExampleTests.release.xcconfig */,
+			);
+			name = "Pods-TrendViewExampleTests";
+			path = "Target Support Files/Pods-TrendViewExampleTests";
+			sourceTree = "<group>";
+		};
+		545DAC9EB60119BDA9390C87078B1B90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2A28F163693FDA34572C90D1FF8EDFB /* Pods-TrendViewExample */,
+				4B4C58568CA51B421EDE5E0A14E273D4 /* Pods-TrendViewExampleTests */,
+				B01B2623CF5CFE1A4DCD0FCBDBD14293 /* Pods-TrendViewExampleUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				B874968F3DD1E284B3B6FFA27A129A19 /* Pods */,
+				99F8F4E33DE9F4D01BE006F4A3E9F31E /* Products */,
+				545DAC9EB60119BDA9390C87078B1B90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		99F8F4E33DE9F4D01BE006F4A3E9F31E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9054826C1DA6B18FD12E7A3D418BA03F /* libPods-TrendViewExample.a */,
+				4F7A9AA3EB409D387759C5B459B26CEC /* libPods-TrendViewExampleTests.a */,
+				9ADE9CE5B3EC8FD8F195AAA08BD40765 /* libPods-TrendViewExampleUITests.a */,
+				88FA1B191F123B35684238AED522DC30 /* libTrendView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B01B2623CF5CFE1A4DCD0FCBDBD14293 /* Pods-TrendViewExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CC7AF6AE808DD15B9004B69633D0377 /* Pods-TrendViewExampleUITests-acknowledgements.markdown */,
+				CDFF34C324ADC940F7A17BE92F3ECDBF /* Pods-TrendViewExampleUITests-acknowledgements.plist */,
+				8B58E813D4474D3A7B9D10CFB5B2A46B /* Pods-TrendViewExampleUITests-dummy.m */,
+				EF913957B1EBC7DF6D844B3363A0482D /* Pods-TrendViewExampleUITests-frameworks.sh */,
+				40823749945365CB14B27BA0B91481A3 /* Pods-TrendViewExampleUITests-resources.sh */,
+				EC6763C08B757ECB41D15DC0942B684D /* Pods-TrendViewExampleUITests.debug.xcconfig */,
+				7F2E498C239F5A4AF41252074866958B /* Pods-TrendViewExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-TrendViewExampleUITests";
+			path = "Target Support Files/Pods-TrendViewExampleUITests";
+			sourceTree = "<group>";
+		};
+		B2A28F163693FDA34572C90D1FF8EDFB /* Pods-TrendViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				C613F1B1BBA2AC9908BF0B7001C1AE55 /* Pods-TrendViewExample-acknowledgements.markdown */,
+				7BA35BE3EE42B993DF3F976B8CE665C7 /* Pods-TrendViewExample-acknowledgements.plist */,
+				4D8F37EB821102D0E6CD2FD77CACED37 /* Pods-TrendViewExample-dummy.m */,
+				EC0615FDE952BF65CEE3B45F87977EEF /* Pods-TrendViewExample-frameworks.sh */,
+				3E6458D894CA255464DF8CCED461DF7B /* Pods-TrendViewExample-resources.sh */,
+				548AF531A8ECC7CA0EAB22B49F711F6E /* Pods-TrendViewExample.debug.xcconfig */,
+				927EDF27CEB7314A936C1BC296C04FF1 /* Pods-TrendViewExample.release.xcconfig */,
+			);
+			name = "Pods-TrendViewExample";
+			path = "Target Support Files/Pods-TrendViewExample";
+			sourceTree = "<group>";
+		};
+		B874968F3DD1E284B3B6FFA27A129A19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08AA1836E59EBFA70639985339F077E1 /* TrendView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD22AB5D805F13285DD3EEC61A636240 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E3A878848FFD6D77B7471276B73661F /* TrendView.xcconfig */,
+				71061CC49375AC36DE4B0A98DD15DF58 /* TrendView-dummy.m */,
+				6C7F4B7917F24DC13CF55F421AFDF7F9 /* TrendView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TrendView";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82341F1141B28959F0BE1AAB1BD7012F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A22EF1AC48998DC4C12C1D25C7E0561 /* TVPoint.h in Headers */,
+				9BE39317D011845CCB8C4E648BC9F7FE /* TVTrendView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2DFF6D3B0CC1AC686187307D80078A11 /* Pods-TrendViewExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3B2AB8531BEDF4EEEB3895DAE98B7A /* Build configuration list for PBXNativeTarget "Pods-TrendViewExampleUITests" */;
+			buildPhases = (
+				2960360D8FF77B932EF318BD7B579927 /* Sources */,
+				DBC10F49CCA5BB0EC07C2ACB215E9BCB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TrendViewExampleUITests";
+			productName = "Pods-TrendViewExampleUITests";
+			productReference = 9ADE9CE5B3EC8FD8F195AAA08BD40765 /* libPods-TrendViewExampleUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7261EDA5BA09A35091AC2B83B2B1E69A /* Pods-TrendViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0094D852A1211664CA6740424B435907 /* Build configuration list for PBXNativeTarget "Pods-TrendViewExample" */;
+			buildPhases = (
+				D4E6638D0AFFDB406BB03267F5F7D61E /* Sources */,
+				C37A26AFB60030C27083D927C2BE340C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F8B53057766BBEF0CF8787790253D62 /* PBXTargetDependency */,
+			);
+			name = "Pods-TrendViewExample";
+			productName = "Pods-TrendViewExample";
+			productReference = 9054826C1DA6B18FD12E7A3D418BA03F /* libPods-TrendViewExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8EEEE3FED951ED983C4B62F0294878B9 /* Pods-TrendViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB048A3C817ECD2B760DA976E8E99E3 /* Build configuration list for PBXNativeTarget "Pods-TrendViewExampleTests" */;
+			buildPhases = (
+				E4DF9E583707C964CB058B8D4575AF47 /* Sources */,
+				CCF4D3A2B131F3A2545626B0C48F6118 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TrendViewExampleTests";
+			productName = "Pods-TrendViewExampleTests";
+			productReference = 4F7A9AA3EB409D387759C5B459B26CEC /* libPods-TrendViewExampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E80FAA3147CA78FF7CD5B26E93FD72E2 /* TrendView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C5D2050241B472B11419A079A7A4511 /* Build configuration list for PBXNativeTarget "TrendView" */;
+			buildPhases = (
+				38E327778ED214AA35E96371C805CFD5 /* Sources */,
+				93677B94A6831220006E5905CD14F033 /* Frameworks */,
+				82341F1141B28959F0BE1AAB1BD7012F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrendView;
+			productName = TrendView;
+			productReference = 88FA1B191F123B35684238AED522DC30 /* libTrendView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 99F8F4E33DE9F4D01BE006F4A3E9F31E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7261EDA5BA09A35091AC2B83B2B1E69A /* Pods-TrendViewExample */,
+				8EEEE3FED951ED983C4B62F0294878B9 /* Pods-TrendViewExampleTests */,
+				2DFF6D3B0CC1AC686187307D80078A11 /* Pods-TrendViewExampleUITests */,
+				E80FAA3147CA78FF7CD5B26E93FD72E2 /* TrendView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2960360D8FF77B932EF318BD7B579927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A309E490DC5FE5F0B2009A54E0E3D45 /* Pods-TrendViewExampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E327778ED214AA35E96371C805CFD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809F625FFDBDD66CFF3ECE6760874B3F /* TrendView-dummy.m in Sources */,
+				723C4EFDD2240819E348CF45B3C922F6 /* TVPoint.m in Sources */,
+				799AAB12C3DAA1D5C5F33FF63128CE3B /* TVTrendView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E6638D0AFFDB406BB03267F5F7D61E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7BBFB3CAE151F0D64703727E7F8DAE /* Pods-TrendViewExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DF9E583707C964CB058B8D4575AF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414A0FBF2E5438C3A7371CDB1277EBD0 /* Pods-TrendViewExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F8B53057766BBEF0CF8787790253D62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TrendView;
+			target = E80FAA3147CA78FF7CD5B26E93FD72E2 /* TrendView */;
+			targetProxy = E486E08F54378AF7A2D8D203B87CFD70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F7B57CB0B51C7510A06DBBC46C5D2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548AF531A8ECC7CA0EAB22B49F711F6E /* Pods-TrendViewExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3269CEBEA1FA139B0E02CA1AF4C10608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9FD817DB3A133FDD954C5348FC3CBE /* Pods-TrendViewExampleTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3550EB54877CC7C343DA96B003D64DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3A878848FFD6D77B7471276B73661F /* TrendView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TrendView/TrendView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3C34B584898AC0DDE73CD7751F188F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2E498C239F5A4AF41252074866958B /* Pods-TrendViewExampleUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		472CBECA99E35050F49BDC54F898323C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6763C08B757ECB41D15DC0942B684D /* Pods-TrendViewExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4C0883766143697A522909D7B27B9306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927EDF27CEB7314A936C1BC296C04FF1 /* Pods-TrendViewExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A3076A0598CD646BD09084E23674654F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF44094B7FD8C35BC8AC47A17E3040E /* Pods-TrendViewExampleTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BFA65B2917C11797842E0C9675DEE482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3A878848FFD6D77B7471276B73661F /* TrendView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TrendView/TrendView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0094D852A1211664CA6740424B435907 /* Build configuration list for PBXNativeTarget "Pods-TrendViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7B57CB0B51C7510A06DBBC46C5D2DF /* Debug */,
+				4C0883766143697A522909D7B27B9306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C5D2050241B472B11419A079A7A4511 /* Build configuration list for PBXNativeTarget "TrendView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3550EB54877CC7C343DA96B003D64DD4 /* Debug */,
+				BFA65B2917C11797842E0C9675DEE482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3B2AB8531BEDF4EEEB3895DAE98B7A /* Build configuration list for PBXNativeTarget "Pods-TrendViewExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472CBECA99E35050F49BDC54F898323C /* Debug */,
+				3C34B584898AC0DDE73CD7751F188F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB048A3C817ECD2B760DA976E8E99E3 /* Build configuration list for PBXNativeTarget "Pods-TrendViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3076A0598CD646BD09084E23674654F /* Debug */,
+				3269CEBEA1FA139B0E02CA1AF4C10608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
